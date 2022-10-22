@@ -54,7 +54,6 @@ h2 {
 }
 .flex-container2{
     display: flex;
-    margin: 50px;
     background-color: black;
 }
 .flex-item2{
@@ -69,7 +68,7 @@ h2 {
     margin-left: 300px;
     margin-right: 300px;
     position: relative;
-    top: 132px;
+    top: 82px;
     color: white;
     background-color: gray;
     opacity: 0.5;
