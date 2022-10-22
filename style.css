@@ -9,12 +9,13 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-    opacity: 0.9
+    opacity: 0.9;
 }
 .navbar-top ul {
     list-style: none;
     display: flex;
     grid-gap:30px;
+    font-size: 20px;
 
 }
 .part2{
@@ -27,4 +28,56 @@ button{
     border-color: rgb(0, 179, 255);
     padding: 5px;
     width: 200px;
+}
+.flex-container{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.flex-item{
+    padding: 50px;
+}
+h2 {
+    text-align: center;
+}
+.flex-container1{
+    display: flex;
+    
+}
+.re-size{
+    height: 350px;
+    width: 300px;
+}
+.re-size2{
+    border-radius: 50px;
+}
+.flex-container2{
+    display: flex;
+    margin: 50px;
+    background-color: black;
+}
+.flex-item2{
+    text-align: left;
+    color: white;
+    padding: 100px;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    position: relative;
+    top: 132px;
+    color: white;
+    background-color: gray;
+    opacity: 0.5;
+    padding: 16px;
+}
+.bottom{
+    text-align: center;
+    position: relative;
+    color: white;
+    bottom: 100px;
 }
